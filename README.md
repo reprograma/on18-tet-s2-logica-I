@@ -6,7 +6,6 @@
 
 Esta é a 2ª semana da turma online Todas em Tech on18 - Back-end, nesta aula do dia 20/08/2022 teremos os seguintes conteúdos:
 
-
   - [1. Lógica de Programação](#1-lógica-de-programação)
     - [1.1. Como funciona um programa?](#11-como-funciona-um-programa)
     - [1.2. Algoritmos](#12-algoritmos)
@@ -96,6 +95,10 @@ Exemplo do caixa eletrônico de um banco.¹
 
 Sequência de passos/comandos finitos a serem executados para a realização de uma tarefa/funcionalidade e/ou a solução de um problema.
 
+> "Um algoritmo é um conjunto de regras para se obter uma saída específica a partir de uma entrada específica. Cada passo de um algoritmo precisa ser definido de forma precisa <u>e simples</u> o bastante para que ele seja traduzido para uma linguagem de programação e executado por um computador" (Donald Knuth)
+
+Um algoritmo deve ser uma sequência lógica de passos com começo, meio e fim, onde lógica é a parte da filosofia que trata das formas do pensamento (dedução, indução, hipótese, inferência, dentre outros) e das operações intelectuais que visam à determinação do que é verdadeiro ou falso.
+
 #### **Vamos criar um Algoritmo?**
 
 ### 1.3. Fluxogramas
@@ -110,7 +113,7 @@ Sequência de passos/comandos finitos a serem executados para a realização de 
 
 É uma forma genérica de escrever algoritmo utilizando a sua linguagem nativa sem a necessidade de conhecer ou utilizar a sintaxe de uma linguagem de programação real;
 
-### **COLOCAR VIDEO AQUI**
+### [Watch the video](https://drive.google.com/file/d/1dfe31yjhaotHJzl7UUQtsiS6NIBNPu1N/view?usp=sharing)
 
 > Exemplo de Algoritmo em Pseudocódigo usando [Visualg](https://visualg3.com.br/baixe-o-visualg-3-0-7/)
 
@@ -124,7 +127,7 @@ A linguagem de programação é um método padronizado, formado por um conjunto 
 
 <img src='./assets/python_code.png' width=500 alt='algoritmo simples em Python'>
 
-> Exemplo de Algoritmo em Pseudocódigo usando Python
+> Exemplo de Algoritmo com a linguagem de programação Python
 
 ---
 ## 2. JavaScript
@@ -432,6 +435,7 @@ switch (regiao) {
 ```
 ## Links úteis 
 
+- [Algoritmos](https://algoritmosempython.com.br/cursos/algoritmos-python/introducao/algoritmos/#:~:text=%22Um%20algoritmo%20%C3%A9%20um%20conjunto,de%20acordo%20com%20Donald%20Knuth.)
 - [Tipos Primitivos e Variáveis](https://youtu.be/Vbabsye7mWo)
 - [Declarando Variáveis](https://youtu.be/u_aLTZHsclg)
 - [Demonstração Variáveis](https://youtu.be/PzylgoSZIfI)

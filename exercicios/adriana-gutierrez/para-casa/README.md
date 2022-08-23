@@ -24,6 +24,8 @@ let camaroes = 0.512
 <img src='../../../assets/idh.jpeg' width=700 alt='índice que mede IDH'>
 ---
 
+
+
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
 - [ ] Fiz o fork do repositório.

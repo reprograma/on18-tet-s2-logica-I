@@ -17,3 +17,14 @@ let afeganistao = 0.465
 let camaroes = 0.512
 
 
+let paises=[noruega,qatar,canada,brasil,japao,vietna,afeganistao,camaroes]
+
+
+paises.forEach(paises=>function(){
+    if(paises<0.499){
+        console.log('Países muito baixo')
+    }
+    if(paises>0.500 || paises<1.00){
+        console.log('muito alto')
+    }
+})

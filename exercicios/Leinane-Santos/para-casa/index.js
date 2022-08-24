@@ -17,22 +17,22 @@ muitoAlto 0.8 - 1
 //let camaroes = 0.512
 
 
-prompt("Digite o nome do país?")
-let pais = prompt("Digite o nome do país?")
+//prompt("Digite o nome do país?")
+//let pais = prompt("Digite o nome do país?")
 
-let idh = prompt("Digite o IDH")  
-prompt("Digite o IDH")
+//let idh = prompt("Digite o IDH")  
+//prompt("Digite o IDH")
+
+let = idh
 
 
-
-
-if (idh >= 0 && idh < 0.499) { 
+if(idh >= 0 && idh <= 0.499) { 
     console.log("Muito Baixo");
-} else if (idh >= 0,500 && idh < 0.599 ) { 
+} else if(idh >= 0.5 && idh <= 0.599) { 
     console.log("Baixo");
-} else if (idh >= 0,600 && idh < 0.699) {
+} else if(idh >= 0.6 && idh <= 0.699) {
     console.log("Media");
-} else if ( idh <= 0,700 && idh < 0.799) {
+} else if( idh <= 0.7 && idh <= 0.799) {
     console.log("Alto");
 } else {
     console.log(" Muito Alto"); 

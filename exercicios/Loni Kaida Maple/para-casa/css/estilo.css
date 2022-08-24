@@ -1,0 +1,124 @@
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Heading */
+.cabecalho h1{
+ position:relative;
+ top:12px;
+ border-style:solid;
+ border-right-style:dotted;
+ border-left-style:dotted;
+ border-bottom-width:6px;
+ font-size:40px;
+ line-height:66.4px;
+ font-style:normal;
+ text-align:center;
+ text-shadow:rgb(255, 255, 255) 1px 1px 0px, rgb(170, 170, 170) 2px 2px 0px;
+ letter-spacing:0px;
+ word-spacing:6px;
+ background-color:#18d1a9;
+ color:rgb(0, 0, 0);
+ background-position-y:36%;
+ background-size:cover;
+ border-top-left-radius:12px;
+ border-top-right-radius:12px;
+ border-bottom-left-radius:12px;
+ border-bottom-right-radius:12px;
+ border-bottom-color:#1abc9c;
+ border-color:#1abc9c;
+ transform:translatex(0px) translatey(0px);
+ box-shadow:none;
+}
+
+/* Idh box */
+.idh-box{
+ position:relative;
+ top:60px;
+ text-align:center;
+ display:inline-block;
+ transform:translatex(699px) translatey(3px);
+ min-height:248px;
+ font-style:normal;
+ text-shadow:rgb(255, 255, 255) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px;
+ font-size:22px;
+ box-shadow:none;
+ border-style:solid;
+ border-color:#1dc7a5;
+ background-color:#1abc9c;
+ border-top-left-radius:12px;
+ border-top-right-radius:12px;
+ border-bottom-left-radius:12px;
+ border-bottom-right-radius:12px;
+ margin-right:0px;
+ width:450px;
+}
+
+/* Button */
+.idh-box button{
+ font-size:25px;
+ text-shadow:rgb(255, 255, 255) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px;
+ text-align:center;
+ font-family:'Arial Black','Arial Bold',Gadget,sans-serif;
+ color:#f2fbcf;
+ background-color:#ed2a2a;
+ background-image:linear-gradient(179deg, #000000 0%, #a559e7 33%, #8484ea 49%, #8419ff 65%, #000000 100%);
+ border-bottom-left-radius:12px;
+ border-top-right-radius:12px;
+ padding-top:5px;
+ padding-bottom:5px;
+ position:relative;
+ top:22px;
+}
+
+/* Exibir info */
+#exibir-info{
+ position:relative;
+ top:32px;
+ background-color:#ffffff;
+ display:inline-block;
+ width:294px;
+ box-shadow:none;
+ border-style:solid;
+ border-color:#0d5d50;
+ border-top-left-radius:12px;
+ border-bottom-right-radius:12px;
+ font-family:'Advent Pro', sans-serif;
+ font-size:32px;
+ min-height:100px;
+}
+
+/* Country name */
+#country-name{
+ border-style:solid;
+ border-top-left-radius:12px;
+ border-bottom-right-radius:12px;
+}
+
+/* Label */
+.idh-box .user-input-country label{
+ position:relative;
+ top:3px;
+ left:3px;
+}
+
+/* Navigation */
+nav{
+ text-align:center;
+ color:#ffffff;
+}
+
+/* Body */
+body{
+ background-color:#161616;
+ background-position-x:37%;
+ background-position-y:27%;
+}
+
+@media (max-width:768px){
+
+ /* Idh box */
+ .idh-box{
+  transform: translatex(211px);
+ }
+ 
+}

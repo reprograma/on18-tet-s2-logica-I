@@ -7,11 +7,11 @@ let vietna = 0.666
 let afeganistao = 0.465
 let camaroes = 0.512
 
-const IDH = noruega
+const IDH = brasil
 
 if (IDH >= 0 && IDH <= 0.499){
     console.log('IDH muito baixo')
-}else if(IDH >= 0.5 && IDH <= 0.599 ){
+}else if(IDH >= 0.5 && IDH <= 0.599){
     console.log( 'IDH baixo')
 }else if(IDH >= 0.6 && IDH <= 0.699){
     console.log('IDH médio')

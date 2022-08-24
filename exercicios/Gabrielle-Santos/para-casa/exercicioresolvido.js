@@ -9,9 +9,9 @@ let camaroes = 0.512
 
 const IDH = noruega
 
-if (IDH >= 0 && IDH <= 0.0499){
+if (IDH >= 0 && IDH <= 0.499){
     console.log('IDH muito baixo')
-}else if(IDH >= 0.5 && IDH <= 0.0599 ){
+}else if(IDH >= 0.5 && IDH <= 0.599 ){
     console.log( 'IDH baixo')
 }else if(IDH >= 0.6 && IDH <= 0.699){
     console.log('IDH médio')

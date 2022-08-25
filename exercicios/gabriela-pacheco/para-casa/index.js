@@ -7,7 +7,7 @@ let vietna = 0.666;
 let afeganistao = 0.465;
 let camaroes = 0.512;
 
-let paises = canada;
+let paises = camaroes;
 
 if (paises >= 0 && paises <= 0.499) {
     console.log('IDH muito baixo');

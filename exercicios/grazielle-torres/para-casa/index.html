@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício IDH</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Classificador de IDH</h1>
+    </header>
+    <main>
+        <section class="entradadousuario">
+            <table>
+                <thead>
+                    <tr>
+                        <th>País</th>
+                        <th>Noruega</th>
+                        <th>Qatar</th>
+                        <th>Canadá</th>
+                        <th>Brasil</th>
+                        <th>Japão</th>
+                        <th>Vietnã</th>
+                        <th>Afeganistão</th>
+                        <th>Camarões</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>IDH</th>
+                        <td>0.944</td>
+                        <td>0.850</td>
+                        <td>0.913</td>
+                        <td>0.755</td>
+                        <td>0.891</td>
+                        <td>0.666</td>
+                        <td>0.465</td>
+                        <td>0.512</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <input type="text" id="caixaNomepais" placeholder="Escolha e digite aqui um dos países listados...">
+            <button class="classificar" onclick="btnClassificarIdh()">Descubra</button>
+            <section>
+                <span class="mensagem-retornada">Confira aqui a classificação do país escolhido</span>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p> &#169; Desenvolvido por Grazielle Torres</p>
+        <a href="https://github.com/MBTGrazielle"><img class="logoGithub" src="git.png" alt="Logo do Github"></a>
+        <a href="https://reprograma.com.br/"><img class="logoReprograma" src="logotipo-reprograma.png" alt=""></a>
+    </footer>
+</body>
+
+</html>

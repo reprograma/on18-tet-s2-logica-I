@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(#e3e1e3 40%, #8b008b);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+main {
+    display: flex;
+}
+
+.entradadousuario {
+    margin-top: 89px;
+    margin-left: 350px;
+}
+
+table {
+    margin-left: 150px;
+}
+
+td,
+th {
+    border: 1px solid #380238;
+}
+
+#caixaNomepais {
+    border-radius: 24px;
+    width: 600px;
+    height: 50px;
+    padding: 10px 10px;
+    border-style: dashed;
+    border-color: #8b008b;
+    font-size: 25px;
+    margin-top: 100px;
+    color: #380238;
+}
+
+#caixaNomepais:hover {
+    border-color: rgb(139, 205, 6);
+}
+
+span {
+    margin-left: 50px;
+    font-size: 20px;
+    color: #380238;
+    font-weight: bold;
+    margin-left: -299px;
+}
+
+::placeholder {
+    color: #380238;
+}
+
+button {
+    font-size: 20px;
+    font-size: 25px;
+    border-radius: 24px;
+    border-color: #8b008b;
+    width: 150px;
+    height: 35px;
+    transition: all 1ms;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+button:hover {
+    border-color: rgb(139, 205, 6);
+    font-weight: bold;
+}
+
+p {
+    margin-left: 630px;
+    font-weight: bold;
+}
+
+.logoGithub {
+    width: 35px;
+    height: 35px;
+    margin-left: 650px;
+}
+
+.logoReprograma {
+    width: 180px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 176px;
+}

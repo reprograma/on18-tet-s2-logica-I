@@ -15,5 +15,3 @@ let japao = 0.891
 let vietna = 0.666
 let afeganistao = 0.465
 let camaroes = 0.512
-
-

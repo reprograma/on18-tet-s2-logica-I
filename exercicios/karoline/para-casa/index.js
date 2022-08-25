@@ -17,3 +17,4 @@ let afeganistao = 0.465
 let camaroes = 0.512
 
 
+

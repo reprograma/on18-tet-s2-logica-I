@@ -19,4 +19,6 @@ if (paises >= 0 && paises <= 0.499) {
     console.log('IDH alto');
 } else {
     console.log('Digite um IDH válido');
+
+
 }

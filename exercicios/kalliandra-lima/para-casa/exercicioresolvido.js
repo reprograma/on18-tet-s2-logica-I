@@ -7,15 +7,13 @@ let vietna = 0.666
 let afeganistao = 0.465
 let camaroes = 0.512
 
-const IDH = camaroes
-
-if (IDH >= 0 && IDH <= 0.0499){
+if (IDH >= 0 && IDH < 0.5){
     console.log('IDH muito baixo')
-}else if(IDH >= 0.5 && IDH <= 0.0599){
+}else if(IDH >= 0.5 && IDH <0.6){
     console.log( 'IDH baixo')
-}else if(IDH >= 0.6 && IDH <= 0.699){
+}else if(IDH >= 0.6 && IDH < 0.7){
     console.log('IDH médio')
-}else if (IDH >= 0.7 && IDH <= 0.799){
+}else if (IDH >= 0.7 && IDH < 0.8){
     console.log('IDH alto')
 }else if(IDH >=0.8 && IDH <=1){
     console.log('IDH muito alto')
@@ -23,4 +21,4 @@ if (IDH >= 0 && IDH <= 0.0499){
     console.log('IDH inválido')
 }
 
-
+const IDH = vietna

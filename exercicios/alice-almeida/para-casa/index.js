@@ -28,16 +28,20 @@ const listaPaises = {
 };
 
 const idhChecker = (idh) => {
-  if (idh < 0.5) {
-    return "Muito Baixo";
-  } else if (idh < 0.6) {
-    return "Baixo";
-  } else if (idh < 0.7) {
-    return "Médio";
-  } else if (idh < 0.8) {
-    return "Alto";
+  if (idh >= 0 || idh <= 1) {
+    if (idh < 0.5) {
+      return "Muito Baixo";
+    } else if (idh < 0.6) {
+      return "Baixo";
+    } else if (idh < 0.7) {
+      return "Médio";
+    } else if (idh < 0.8) {
+      return "Alto";
+    } else {
+      return "Muito Alto";
+    }
   } else {
-    return "Muito Alto";
+    return "IDH Inválido"
   }
 };
 

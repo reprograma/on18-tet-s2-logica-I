@@ -1,4 +1,4 @@
-let f = 214
+let f = 100
 
 if(f < 32 || f > 212) {
   console.log("Digite uma temperatura ºF válida")
